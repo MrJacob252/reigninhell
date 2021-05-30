@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8636-aea6-654d-96f0" name="Cabal" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="22f0-18eb-8fd1-99fa" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8636-aea6-654d-96f0" name="Cabal" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="22f0-18eb-8fd1-99fa" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="daba-95b7-302e-2a1e" name="Leader" hidden="false" collective="false" import="true" targetId="8b47-03c9-1bec-cbf7" type="selectionEntry">
       <categoryLinks>
@@ -457,7 +457,7 @@ your Life ability by 2. ([Move], [Life], [Combat] are automaticaly increased in 
                       <modifiers>
                         <modifier type="set" field="c11a-3c1c-0023-c446" value="1.0">
                           <conditions>
-                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="64fc-3a62-50f2-38e3" type="equalTo"/>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b424-9853-ace4-3400" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -553,7 +553,7 @@ your Life ability by 2. ([Move], [Life], [Combat] are automaticaly increased in 
                       <modifiers>
                         <modifier type="set" field="3b55-ab01-5f81-ea2b" value="1.0">
                           <conditions>
-                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="64fc-3a62-50f2-38e3" type="equalTo"/>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="87f8-9547-3dae-1496" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -647,7 +647,7 @@ your Life ability by 2. ([Move], [Life], [Combat] are automaticaly increased in 
                       <modifiers>
                         <modifier type="set" field="70ad-4530-7da5-4178" value="1.0">
                           <conditions>
-                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="64fc-3a62-50f2-38e3" type="equalTo"/>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1188-ba11-5912-c9d5" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -731,7 +731,7 @@ your Life ability by 2. ([Move], [Life], [Combat] are automaticaly increased in 
                       <modifiers>
                         <modifier type="set" field="43fe-31fd-caf2-7ad4" value="1.0">
                           <conditions>
-                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="64fc-3a62-50f2-38e3" type="equalTo"/>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="556a-8d5e-e558-3b32" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -829,7 +829,7 @@ your Life ability by 2. ([Move], [Life], [Combat] are automaticaly increased in 
                       <modifiers>
                         <modifier type="set" field="6f88-0a82-063d-812e" value="1.0">
                           <conditions>
-                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="64fc-3a62-50f2-38e3" type="equalTo"/>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7651-9c5d-0de5-3497" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -912,7 +912,7 @@ your Life ability by 2. ([Move], [Life], [Combat] are automaticaly increased in 
                       <modifiers>
                         <modifier type="set" field="f5f4-010c-6ae4-3fa8" value="1.0">
                           <conditions>
-                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="64fc-3a62-50f2-38e3" type="equalTo"/>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9791-0112-0e4c-a0b9" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -988,7 +988,7 @@ by 1. ([Move], [Life], [Combat] are automaticaly increased in demon&apos;s profi
                       <modifiers>
                         <modifier type="set" field="1be9-2389-0280-21c8" value="1.0">
                           <conditions>
-                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="64fc-3a62-50f2-38e3" type="equalTo"/>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="27bb-1bb6-a719-25c5" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -1063,7 +1063,7 @@ by 1. ([Move], [Life], [Combat] are automaticaly increased in demon&apos;s profi
                       <modifiers>
                         <modifier type="set" field="8422-6bc4-d987-5e80" value="1.0">
                           <conditions>
-                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="64fc-3a62-50f2-38e3" type="equalTo"/>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="28a5-4043-ad48-0e33" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -1133,7 +1133,7 @@ by 1. ([Move], [Life], [Combat] are automaticaly increased in demon&apos;s profi
                       <modifiers>
                         <modifier type="set" field="8936-ecf6-acd2-3baa" value="1.0">
                           <conditions>
-                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="64fc-3a62-50f2-38e3" type="equalTo"/>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8048-5bfe-9c46-13f1" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -1203,7 +1203,7 @@ by 1. ([Move], [Life], [Combat] are automaticaly increased in demon&apos;s profi
                       <modifiers>
                         <modifier type="set" field="9faf-2dcf-a821-ab42" value="1.0">
                           <conditions>
-                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="64fc-3a62-50f2-38e3" type="equalTo"/>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c867-6f4c-f98f-606f" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>

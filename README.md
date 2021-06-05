@@ -1,3 +1,8 @@
+WARNING!
+This repo can't be added to Battlescribe by link because of issues with implementig BS workflow
+It will still work if you download it and import manually from  a file
+
+
 Template Data Repo
 ==================
 

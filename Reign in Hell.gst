@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="22f0-18eb-8fd1-99fa" name="Reign in Hell" revision="1" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="22f0-18eb-8fd1-99fa" name="Reign in Hell" revision="2" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="cc7c-c1bb-7f20-8378" name=" Souls" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -51,6 +51,16 @@
         <characteristicType id="75ad-a539-0c81-ff3d" name="Description"/>
       </characteristicTypes>
     </profileType>
+    <profileType id="e404-1fce-8f54-aff4" name="Essence">
+      <characteristicTypes>
+        <characteristicType id="befd-8edc-9ada-e8ae" name="Description"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="30a0-40c7-34d3-acce" name="Relic">
+      <characteristicTypes>
+        <characteristicType id="b4e4-c756-c8a9-380f" name="Description"/>
+      </characteristicTypes>
+    </profileType>
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="3436-8e6e-a8f6-716e" name="Leader" hidden="false"/>
@@ -62,12 +72,12 @@
   <forceEntries>
     <forceEntry id="f8b2-aaaf-5a8a-eb0d" name="One-off" hidden="false">
       <modifiers>
-        <modifier type="increment" field="a0e1-919e-8360-ed81" value="101.0">
+        <modifier type="increment" field="a0e1-919e-8360-ed81" value="100.0">
           <conditions>
             <condition field="selections" scope="97dc-ef12-50e1-0522" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1307-8aa0-cf5e-72ba" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="increment" field="a0e1-919e-8360-ed81" value="201.0">
+        <modifier type="increment" field="a0e1-919e-8360-ed81" value="200.0">
           <conditions>
             <condition field="selections" scope="97dc-ef12-50e1-0522" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="03b3-3291-7acc-cd7d" type="equalTo"/>
           </conditions>
@@ -75,7 +85,7 @@
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="10.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e0bf-2bf4-7f22-e4be" type="max"/>
-        <constraint field="cc7c-c1bb-7f20-8378" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0e1-919e-8360-ed81" type="max"/>
+        <constraint field="cc7c-c1bb-7f20-8378" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0e1-919e-8360-ed81" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="688f-bc2d-c5d2-a146" name="Leader" hidden="false" targetId="3436-8e6e-a8f6-716e" primary="false">

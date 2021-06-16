@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="22f0-18eb-8fd1-99fa" name="Reign in Hell" revision="2" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="22f0-18eb-8fd1-99fa" name="Reign in Hell" revision="3" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="cc7c-c1bb-7f20-8378" name=" Souls" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -68,6 +68,9 @@
     <categoryEntry id="0894-68fa-8134-6e32" name="Minion" hidden="false"/>
     <categoryEntry id="97dc-ef12-50e1-0522" name="Game options" hidden="false"/>
     <categoryEntry id="37f0-28f2-907e-0230" name="Cabal Philosophy" hidden="false"/>
+    <categoryEntry id="b93b-d800-9ee4-11fd" name="Lesser Demon" hidden="false"/>
+    <categoryEntry id="8bfb-862a-17d4-a3b6" name="Greater Demon" hidden="false"/>
+    <categoryEntry id="102e-4c9e-ca12-0454" name="Superior Demon" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="f8b2-aaaf-5a8a-eb0d" name="One-off" hidden="false">
@@ -110,6 +113,40 @@
           <constraints>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a33-a311-6682-78cd" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10e9-0203-722e-169d" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="8ab2-1169-ef43-523b" name="Lesser Demon" hidden="false" targetId="b93b-d800-9ee4-11fd" primary="false"/>
+        <categoryLink id="5c4c-b2b9-13b4-e0fe" name="Superior Demon" hidden="false" targetId="102e-4c9e-ca12-0454" primary="false"/>
+        <categoryLink id="69a2-b484-3f9b-0e34" name="Greater Demon" hidden="false" targetId="8bfb-862a-17d4-a3b6" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="1b53-dd9a-887c-b4a3" name="Campaign" hidden="false">
+      <categoryLinks>
+        <categoryLink id="719f-f226-04df-e277" name="Cabal Philosophy" hidden="false" targetId="37f0-28f2-907e-0230" primary="false">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e56-486d-729e-1199" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="360d-c3fc-f431-b759" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="7fc2-020b-8e5c-0d20" name="Devout" hidden="false" targetId="e534-8b74-6056-9e87" primary="false">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f096-e377-8062-230b" type="min"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d151-6bbe-523d-62f0" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="6ea9-b5f9-f4a4-3551" name="Game options" hidden="false" targetId="97dc-ef12-50e1-0522" primary="false"/>
+        <categoryLink id="844d-8f9c-c312-807c" name="Leader" hidden="false" targetId="3436-8e6e-a8f6-716e" primary="false">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="907e-c1b3-aa2c-e4bf" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2983-060e-bcfd-3b76" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="5931-bb40-fdf1-4027" name="Lesser Demon" hidden="false" targetId="b93b-d800-9ee4-11fd" primary="false"/>
+        <categoryLink id="73b1-59c2-6d78-e6c2" name="Greater Demon" hidden="false" targetId="8bfb-862a-17d4-a3b6" primary="false"/>
+        <categoryLink id="cfaf-839c-b3d6-a758" name="Superior Demon" hidden="false" targetId="102e-4c9e-ca12-0454" primary="false"/>
+        <categoryLink id="959f-e730-1e64-997d" name="Minion" hidden="false" targetId="0894-68fa-8134-6e32" primary="false">
+          <constraints>
+            <constraint field="selections" scope="roster" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8bbc-8b2f-9694-2f8b" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>

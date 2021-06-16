@@ -1,31 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f7f0-7dd9-23fe-e40c" name="Cabal Branched" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="22f0-18eb-8fd1-99fa" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f7f0-7dd9-23fe-e40c" name="Cabal" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="22f0-18eb-8fd1-99fa" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
-    <entryLink id="daba-95b7-302e-2a1e" name="Warrior" hidden="false" collective="false" import="true" targetId="1d82-4f9a-8828-9e24" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="5e22-67b1-b1ca-842c" name="New CategoryLink" hidden="false" targetId="3436-8e6e-a8f6-716e" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="b0b7-3ab3-a8f5-2c9e" name="Void Demon" hidden="false" collective="false" import="true" targetId="c9c4-3f0d-a7eb-2249" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="c2e5-c379-18fc-28f6" name="New CategoryLink" hidden="false" targetId="e534-8b74-6056-9e87" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="4da9-44c2-27e5-96ad" name="Lesser Demon" hidden="false" collective="false" import="true" targetId="ab92-f43e-c435-a39b" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="445e-bd77-9c1a-d8db" name="New CategoryLink" hidden="false" targetId="0894-68fa-8134-6e32" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="8163-9aa4-a424-cec2" name="Greater Demon" hidden="false" collective="false" import="true" targetId="3efa-e9fd-3b2a-f0ea" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="0e22-1942-d1ff-2fcd" name="New CategoryLink" hidden="false" targetId="0894-68fa-8134-6e32" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="d29f-b037-9f8c-4fc2" name="Superior Demon" hidden="false" collective="false" import="true" targetId="bce6-7248-10e4-bfef" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="d4c4-2d2e-9e7b-50fe" name="New CategoryLink" hidden="false" targetId="0894-68fa-8134-6e32" primary="true"/>
-      </categoryLinks>
-    </entryLink>
+    <entryLink id="daba-95b7-302e-2a1e" name="Warrior" hidden="false" collective="false" import="true" targetId="1d82-4f9a-8828-9e24" type="selectionEntry"/>
+    <entryLink id="b0b7-3ab3-a8f5-2c9e" name="Void Demon" hidden="false" collective="false" import="true" targetId="c9c4-3f0d-a7eb-2249" type="selectionEntry"/>
+    <entryLink id="4da9-44c2-27e5-96ad" name="Slaughter Fiend" hidden="false" collective="false" import="true" targetId="6e2b-bc5d-fbc4-e97d" type="selectionEntry"/>
+    <entryLink id="8163-9aa4-a424-cec2" name="Marquess d&apos;Winter" hidden="false" collective="false" import="true" targetId="60c9-685f-3128-1d18" type="selectionEntry"/>
+    <entryLink id="d29f-b037-9f8c-4fc2" name="Venom Queen" hidden="false" collective="false" import="true" targetId="4c63-a621-3061-08b9" type="selectionEntry"/>
     <entryLink id="6291-171f-fc1d-b38d" name="Cabal Philosophy" hidden="false" collective="false" import="true" targetId="3d4e-0dc3-867f-d719" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="213f-2960-ab5b-b1bb" type="min"/>
@@ -47,730 +27,17 @@
     <entryLink id="9102-21a2-a23e-afd0" name="Madness Demon" hidden="false" collective="false" import="true" targetId="ce64-d63f-9516-933e" type="selectionEntry"/>
     <entryLink id="d940-183e-2ee4-cc79" name="Succubus" hidden="false" collective="false" import="true" targetId="4a4d-fc05-c3ff-3aa9" type="selectionEntry"/>
     <entryLink id="9048-0cc5-e719-f127" name="Tallyman" hidden="false" collective="false" import="true" targetId="5cb6-db64-fd4c-e792" type="selectionEntry"/>
+    <entryLink id="4e93-9932-9315-f030" name="Armored Demon" hidden="false" collective="false" import="true" targetId="9f11-4270-8cad-7683" type="selectionEntry"/>
+    <entryLink id="2cd2-ddda-1fd1-d8ad" name="Mephit" hidden="false" collective="false" import="true" targetId="14fe-4235-27f2-0fcd" type="selectionEntry"/>
+    <entryLink id="21b8-34a5-8532-725b" name="Corpulent Demon" hidden="false" collective="false" import="true" targetId="153f-9201-8d9d-763f" type="selectionEntry"/>
+    <entryLink id="216f-cb33-ba32-5e01" name="Spined Demon" hidden="false" collective="false" import="true" targetId="1108-18be-2eb4-f184" type="selectionEntry"/>
+    <entryLink id="c0bb-3b63-da11-9223" name="Tentacle Beast" hidden="false" collective="false" import="true" targetId="b878-b2d7-8047-ec20" type="selectionEntry"/>
+    <entryLink id="b7f3-10d2-7ed2-716a" name="Torture Master" hidden="false" collective="false" import="true" targetId="f245-de4d-e18b-85e6" type="selectionEntry"/>
+    <entryLink id="81cc-13ec-7cfa-8096" name="Serpent Knight" hidden="false" collective="false" import="true" targetId="d2a7-ca49-4982-f449" type="selectionEntry"/>
+    <entryLink id="8de5-3779-f5b3-bcd8" name="Lord of Flame" hidden="false" collective="false" import="true" targetId="c8ca-e479-2176-1b40" type="selectionEntry"/>
+    <entryLink id="700f-26d0-f322-df8f" name="Shadow King" hidden="false" collective="false" import="true" targetId="299c-5103-baa8-8725" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="ab92-f43e-c435-a39b" name="Lesser Demon" hidden="false" collective="false" import="true" type="unit">
-      <categoryLinks>
-        <categoryLink id="68df-796b-af71-e73d" name="New CategoryLink" hidden="false" targetId="0894-68fa-8134-6e32" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="34f9-8b9d-cc08-862e" name="Type" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a1b-77cc-d1d3-8c3c" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2674-c37c-2f0e-dc8e" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="6a88-741a-b563-db07" name="Slaughter Fiend" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="068f-139a-f4f3-c557" name="Slaughter Fiend" hidden="false" typeId="b8bf-34dc-6f26-5b03" typeName="Demon">
-                  <modifiers>
-                    <modifier type="increment" field="b936-d350-1b5b-fb34" value="1.0">
-                      <conditions>
-                        <condition field="selections" scope="6a88-741a-b563-db07" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a876-68aa-e121-7fba" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                    <modifier type="increment" field="137b-d13e-dda6-0530" value="1.0">
-                      <conditions>
-                        <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7651-9c5d-0de5-3497" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                    <modifier type="increment" field="b936-d350-1b5b-fb34" value="1.0">
-                      <conditions>
-                        <condition field="selections" scope="6a88-741a-b563-db07" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7651-9c5d-0de5-3497" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <characteristics>
-                    <characteristic name="Move" typeId="ed7a-c503-b270-885d">5</characteristic>
-                    <characteristic name="Life" typeId="137b-d13e-dda6-0530">10</characteristic>
-                    <characteristic name="Combat" typeId="b936-d350-1b5b-fb34">6</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="26e7-ccd2-ad21-ce2a" name="Paragons of Slaughter" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">When the Slaughter Fiend uses Focused Combat, they gain +2 to their Combat ability for the Attack roll (they gain +1 to Combat Defense rolls as normal).</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="57a3-2bd8-73f4-4a33" name="Evolutions" hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="a876-68aa-e121-7fba" name="Greater Evolution" hidden="false" collective="false" import="true" type="upgrade">
-                      <modifiers>
-                        <modifier type="set" field="6f88-0a82-063d-812e" value="1.0">
-                          <conditions>
-                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7651-9c5d-0de5-3497" type="equalTo"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2671-5269-dca5-acc6" type="max"/>
-                        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f88-0a82-063d-812e" type="min"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="aaf7-fdf1-ffd8-7870" name="Greater Evolution" hidden="false" typeId="6ccd-fe51-809b-d201" typeName="Evolutions">
-                          <characteristics>
-                            <characteristic name="Description" typeId="49c9-3fde-e2cf-1269">Increase the Combat ability by 1. ([Move], [Life], [Combat] are automaticaly increased in demon&apos;s profile by Battlescribe)</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="7651-9c5d-0de5-3497" name="Superior Evolution" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="578f-e1ed-636d-707b" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="cda8-2130-aeab-7436" name="Superior Evolution" hidden="false" typeId="6ccd-fe51-809b-d201" typeName="Evolutions">
-                          <characteristics>
-                            <characteristic name="Description" typeId="49c9-3fde-e2cf-1269">Increase the Combat ability and Life by 1. ([Move], [Life], [Combat] are automaticaly increased in demon&apos;s profile by Battlescribe)</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="21.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="8a5b-cd0f-24fa-caea" name="Mephit" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="ed0b-6f0a-69cc-dacb" name="Mephit" hidden="false" typeId="b8bf-34dc-6f26-5b03" typeName="Demon">
-                  <modifiers>
-                    <modifier type="increment" field="ed7a-c503-b270-885d" value="1.0">
-                      <conditions>
-                        <condition field="selections" scope="8a5b-cd0f-24fa-caea" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9791-0112-0e4c-a0b9" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                    <modifier type="increment" field="b936-d350-1b5b-fb34" value="1.0">
-                      <conditions>
-                        <condition field="selections" scope="8a5b-cd0f-24fa-caea" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9791-0112-0e4c-a0b9" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                    <modifier type="increment" field="ed7a-c503-b270-885d" value="1.0">
-                      <conditions>
-                        <condition field="selections" scope="8a5b-cd0f-24fa-caea" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="76d2-09d8-5539-d833" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <characteristics>
-                    <characteristic name="Move" typeId="ed7a-c503-b270-885d">9</characteristic>
-                    <characteristic name="Life" typeId="137b-d13e-dda6-0530">7</characteristic>
-                    <characteristic name="Combat" typeId="b936-d350-1b5b-fb34">3</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="b513-f010-8cd5-5f45" name="Sting and Move" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">When using Running Skirmish, the Mephit may increase their Move ability by 3.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="e975-c72c-9072-aef7" name="Fly" hidden="false" targetId="0f98-10c6-6882-0263" type="profile"/>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="4578-ee4f-4270-7107" name="Evolutions" hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="76d2-09d8-5539-d833" name="Greater Evolution" hidden="false" collective="false" import="true" type="upgrade">
-                      <modifiers>
-                        <modifier type="set" field="f5f4-010c-6ae4-3fa8" value="1.0">
-                          <conditions>
-                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9791-0112-0e4c-a0b9" type="equalTo"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0df7-cb71-015e-deb9" type="max"/>
-                        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5f4-010c-6ae4-3fa8" type="min"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="e7e7-7c12-7f41-4027" name="Greater Evolution" hidden="false" typeId="6ccd-fe51-809b-d201" typeName="Evolutions">
-                          <characteristics>
-                            <characteristic name="Description" typeId="49c9-3fde-e2cf-1269">Increase the Move ability by 1. ([Move], [Life], [Combat] are automaticaly increased in demon&apos;s profile by Battlescribe)</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="9791-0112-0e4c-a0b9" name="Superior Evolution" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4119-daa8-b826-d8f2" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="891c-0bae-8d5c-cd58" name="Superior Evolution" hidden="false" typeId="6ccd-fe51-809b-d201" typeName="Evolutions">
-                          <characteristics>
-                            <characteristic name="Description" typeId="49c9-3fde-e2cf-1269">Increase the Move ability and the Combat ability
-by 1. ([Move], [Life], [Combat] are automaticaly increased in demon&apos;s profile by Battlescribe)</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="16.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="9e09-4c86-b23d-fbc1" name="Tentacle Beast" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="ab39-2328-d008-7515" name="Tentacle Beast" hidden="false" typeId="b8bf-34dc-6f26-5b03" typeName="Demon">
-                  <modifiers>
-                    <modifier type="increment" field="ed7a-c503-b270-885d" value="1.0">
-                      <conditions>
-                        <condition field="selections" scope="9e09-4c86-b23d-fbc1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="27bb-1bb6-a719-25c5" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                    <modifier type="increment" field="b936-d350-1b5b-fb34" value="1.0">
-                      <conditions>
-                        <condition field="selections" scope="9e09-4c86-b23d-fbc1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1255-1585-fada-77f7" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <characteristics>
-                    <characteristic name="Move" typeId="ed7a-c503-b270-885d">8</characteristic>
-                    <characteristic name="Life" typeId="137b-d13e-dda6-0530">9</characteristic>
-                    <characteristic name="Combat" typeId="b936-d350-1b5b-fb34">4</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="7c75-521b-e52c-3b22" name="Grappling Arms" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">Enemy demons within 1” of any Tentacle Beast reduce their Combat Ability by 1.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="8ebd-d236-c3be-a9c6" name="Evolutions" hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="1255-1585-fada-77f7" name="Greater Evolution" hidden="false" collective="false" import="true" type="upgrade">
-                      <modifiers>
-                        <modifier type="set" field="1be9-2389-0280-21c8" value="1.0">
-                          <conditions>
-                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="27bb-1bb6-a719-25c5" type="equalTo"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e06-b24d-f965-9653" type="max"/>
-                        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1be9-2389-0280-21c8" type="min"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="ba55-8901-f3af-1d77" name="Greater Evolution" hidden="false" typeId="6ccd-fe51-809b-d201" typeName="Evolutions">
-                          <characteristics>
-                            <characteristic name="Description" typeId="49c9-3fde-e2cf-1269">Increase the Combat ability by 1. ([Move], [Life], [Combat] are automaticaly increased in demon&apos;s profile by Battlescribe)</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="27bb-1bb6-a719-25c5" name="Superior Evolution" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1195-51e3-5319-c204" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="57c2-2d2c-39d7-5862" name="Superior Evolution" hidden="false" typeId="6ccd-fe51-809b-d201" typeName="Evolutions">
-                          <characteristics>
-                            <characteristic name="Description" typeId="49c9-3fde-e2cf-1269">Increase the Move ability by 1 and the Tentacle Beast also reduces the Movement ability of all enemies within 1” by 3”.</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="21.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="814b-8650-582d-6623" name="Armored Demon" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="7a2a-580c-eac7-37f9" name="Armored Demon" hidden="false" typeId="b8bf-34dc-6f26-5b03" typeName="Demon">
-                  <modifiers>
-                    <modifier type="increment" field="b936-d350-1b5b-fb34" value="1.0">
-                      <conditions>
-                        <condition field="selections" scope="814b-8650-582d-6623" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="28a5-4043-ad48-0e33" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                    <modifier type="increment" field="137b-d13e-dda6-0530" value="1.0">
-                      <conditions>
-                        <condition field="selections" scope="814b-8650-582d-6623" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="28a5-4043-ad48-0e33" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <characteristics>
-                    <characteristic name="Move" typeId="ed7a-c503-b270-885d">4</characteristic>
-                    <characteristic name="Life" typeId="137b-d13e-dda6-0530">13</characteristic>
-                    <characteristic name="Combat" typeId="b936-d350-1b5b-fb34">5</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="9658-1aa4-ed93-7617" name="Steely Skin" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">When the Armored Demon rolls Combat Defense dice, they may choose to change he result of any one Combat Defense die to a 6.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="401e-a90b-e5cd-98b7" name="Evolutions" hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="b0da-c84c-585d-a333" name="Greater Evolution" hidden="false" collective="false" import="true" type="upgrade">
-                      <modifiers>
-                        <modifier type="set" field="8422-6bc4-d987-5e80" value="1.0">
-                          <conditions>
-                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="28a5-4043-ad48-0e33" type="equalTo"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3af7-c63b-8a6d-642e" type="max"/>
-                        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8422-6bc4-d987-5e80" type="min"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="8be9-756c-4248-5669" name="Greater Evolution" hidden="false" typeId="6ccd-fe51-809b-d201" typeName="Evolutions">
-                          <characteristics>
-                            <characteristic name="Description" typeId="49c9-3fde-e2cf-1269">When using Steely Skin, the Iron Demon may change the result of 2 Cobat dice to a 6.</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="28a5-4043-ad48-0e33" name="Superior Evolution" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc6e-9097-7f4a-3864" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="f958-373a-a9f2-7c6a" name="Superior Evolution" hidden="false" typeId="6ccd-fe51-809b-d201" typeName="Evolutions">
-                          <characteristics>
-                            <characteristic name="Description" typeId="49c9-3fde-e2cf-1269">Increase the Combat ability and Life by 1. ([Move], [Life], [Combat] are automaticaly increased in demon&apos;s profile by Battlescribe)</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="22.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="bdbe-3db4-ba8e-eb28" name="Spined Demon" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="49e3-cc23-1cbb-fcca" name="Spined Demon" hidden="false" typeId="b8bf-34dc-6f26-5b03" typeName="Demon">
-                  <modifiers>
-                    <modifier type="increment" field="ed7a-c503-b270-885d" value="1.0">
-                      <conditions>
-                        <condition field="selections" scope="bdbe-3db4-ba8e-eb28" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d00d-662f-0986-36b7" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <characteristics>
-                    <characteristic name="Move" typeId="ed7a-c503-b270-885d">6</characteristic>
-                    <characteristic name="Life" typeId="137b-d13e-dda6-0530">7</characteristic>
-                    <characteristic name="Combat" typeId="b936-d350-1b5b-fb34">6</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="57d6-ff26-9ec9-02ee" name="Impaling Charge" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">When the Spined Demon uses Charge, they may reroll up to 3 dice from their Combat Attack roll.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="ad52-3956-6df9-8e85" name="Evolutions" hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="d00d-662f-0986-36b7" name="Greater Evolution" hidden="false" collective="false" import="true" type="upgrade">
-                      <modifiers>
-                        <modifier type="set" field="8936-ecf6-acd2-3baa" value="1.0">
-                          <conditions>
-                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8048-5bfe-9c46-13f1" type="equalTo"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c76e-98f0-e52c-6cb5" type="max"/>
-                        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8936-ecf6-acd2-3baa" type="min"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="1947-58cc-2d8f-0085" name="Greater Evolution" hidden="false" typeId="6ccd-fe51-809b-d201" typeName="Evolutions">
-                          <characteristics>
-                            <characteristic name="Description" typeId="49c9-3fde-e2cf-1269">Increase the Movement ability by 1. ([Move], [Life], [Combat] are automaticaly increased in demon&apos;s profile by Battlescribe)</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="8048-5bfe-9c46-13f1" name="Superior Evolution" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bff0-abd1-4820-8fca" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="83e0-f650-4a1c-36b6" name="Superior Evolution" hidden="false" typeId="6ccd-fe51-809b-d201" typeName="Evolutions">
-                          <characteristics>
-                            <characteristic name="Description" typeId="49c9-3fde-e2cf-1269">If the Spined Demon deals damage when making an attack, increase the damage dealt by 1.</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="19.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="5aec-1136-f717-14f9" name="Corpulent Demon" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="ed3f-bbdc-8568-069f" name="Corpulent Demon" hidden="false" typeId="b8bf-34dc-6f26-5b03" typeName="Demon">
-                  <modifiers>
-                    <modifier type="increment" field="137b-d13e-dda6-0530" value="2">
-                      <conditions>
-                        <condition field="selections" scope="5aec-1136-f717-14f9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="abcf-15fb-325c-85f3" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <characteristics>
-                    <characteristic name="Move" typeId="ed7a-c503-b270-885d">4</characteristic>
-                    <characteristic name="Life" typeId="137b-d13e-dda6-0530">15</characteristic>
-                    <characteristic name="Combat" typeId="b936-d350-1b5b-fb34">4</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="e7b9-19c3-4c1e-ca1b" name="Pile of Flesh" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">When the Corpulent Demon activates, they heal 2 damage.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="fa77-b8e3-2494-bb62" name="Evolutions" hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="abcf-15fb-325c-85f3" name="Greater Evolution" hidden="false" collective="false" import="true" type="upgrade">
-                      <modifiers>
-                        <modifier type="set" field="9faf-2dcf-a821-ab42" value="1.0">
-                          <conditions>
-                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c867-6f4c-f98f-606f" type="equalTo"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a553-8648-8d18-d2d8" type="max"/>
-                        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9faf-2dcf-a821-ab42" type="min"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="5c62-24e3-0dd3-5fa6" name="Greater Evolution" hidden="false" typeId="6ccd-fe51-809b-d201" typeName="Evolutions">
-                          <characteristics>
-                            <characteristic name="Description" typeId="49c9-3fde-e2cf-1269">Increase the Life ability by 2. ([Move], [Life], [Combat] are automaticaly increased in demon&apos;s profile by Battlescribe)</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="c867-6f4c-f98f-606f" name="Superior Evolution" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0925-db9e-f12d-8329" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="392d-0ebd-489c-09f8" name="Superior Evolution" hidden="false" typeId="6ccd-fe51-809b-d201" typeName="Evolutions">
-                          <characteristics>
-                            <characteristic name="Description" typeId="49c9-3fde-e2cf-1269">When the Pile of Flesh ability triggers, it heals one additional Life.</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="17.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="3efa-e9fd-3b2a-f0ea" name="Greater Demon" hidden="false" collective="false" import="true" type="unit">
-      <categoryLinks>
-        <categoryLink id="0611-cb71-0548-b67f" name="New CategoryLink" hidden="false" targetId="0894-68fa-8134-6e32" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="9906-5bf5-d607-b4c6" name="Type" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ab4-4802-f1b3-0934" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="219e-673f-683c-1f10" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="21b8-9135-d31c-902b" name="Marquess d&apos;Winter" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="edfa-121a-f9ea-c138" name="Marquess d&apos;Winter" hidden="false" typeId="b8bf-34dc-6f26-5b03" typeName="Demon">
-                  <modifiers>
-                    <modifier type="increment" field="b936-d350-1b5b-fb34" value="1">
-                      <conditions>
-                        <condition field="selections" scope="21b8-9135-d31c-902b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2db7-de14-d2fc-ddd5" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                    <modifier type="increment" field="137b-d13e-dda6-0530" value="1">
-                      <conditions>
-                        <condition field="selections" scope="21b8-9135-d31c-902b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2db7-de14-d2fc-ddd5" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <characteristics>
-                    <characteristic name="Move" typeId="ed7a-c503-b270-885d">4</characteristic>
-                    <characteristic name="Life" typeId="137b-d13e-dda6-0530">11</characteristic>
-                    <characteristic name="Combat" typeId="b936-d350-1b5b-fb34">6</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="9ee3-013f-b632-59dc" name="Touch of Winter" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">When another demon makes a Combat Attack roll against the Marquess d’Winter, increase the target number needed to hit by 1.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="6306-fcb9-59fc-89f9" name="Evolutions" hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="2db7-de14-d2fc-ddd5" name="Superior Evolution" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1891-eee2-cfcb-5e3b" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="37ac-e311-af10-0a23" name="Superior Evolution" hidden="false" typeId="6ccd-fe51-809b-d201" typeName="Evolutions">
-                          <characteristics>
-                            <characteristic name="Description" typeId="49c9-3fde-e2cf-1269">Increase the Combat ability and Life ability by 1. ([Move], [Life], [Combat] are automaticaly increased in demon&apos;s profile by Battlescribe)</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="24.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="f852-cecb-47b6-651d" name="Torture Master" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="37fc-880e-34ee-70f8" name="Torture Master" hidden="false" typeId="b8bf-34dc-6f26-5b03" typeName="Demon">
-                  <modifiers>
-                    <modifier type="increment" field="137b-d13e-dda6-0530" value="1">
-                      <conditions>
-                        <condition field="selections" scope="f852-cecb-47b6-651d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bf6e-4964-c5a6-48c8" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                    <modifier type="increment" field="b936-d350-1b5b-fb34" value="1">
-                      <conditions>
-                        <condition field="selections" scope="f852-cecb-47b6-651d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bf6e-4964-c5a6-48c8" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <characteristics>
-                    <characteristic name="Move" typeId="ed7a-c503-b270-885d">6</characteristic>
-                    <characteristic name="Life" typeId="137b-d13e-dda6-0530">10</characteristic>
-                    <characteristic name="Combat" typeId="b936-d350-1b5b-fb34">6</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="24bb-8e2b-e898-f866" name="Heed the Lash" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">When the Torture Master attacks, each Combat Attack dice that results in a 6 reduces either the Move, Life or Combat of the target by 1 for the rest of the game. When you reduce Life in this way, both their maximum and current Life ability are reduced by this amount.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="a88c-a061-b7e0-a7c2" name="Evolutions" hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="bf6e-4964-c5a6-48c8" name="Superior Evolution" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e32-e991-8144-8c84" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="0056-38ed-23f2-76f1" name="Superior Evolution" hidden="false" typeId="6ccd-fe51-809b-d201" typeName="Evolutions">
-                          <characteristics>
-                            <characteristic name="Description" typeId="49c9-3fde-e2cf-1269">Increase the Combat ability and Life ability by 1. ([Move], [Life], [Combat] are automaticaly increased in demon&apos;s profile by Battlescribe)</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="27.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="5d45-cabf-293b-8f00" name="Serpent Knight" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="f035-e97c-9c6c-d0c3" name="Serpent Knight" hidden="false" typeId="b8bf-34dc-6f26-5b03" typeName="Demon">
-                  <modifiers>
-                    <modifier type="increment" field="ed7a-c503-b270-885d" value="2">
-                      <conditions>
-                        <condition field="selections" scope="5d45-cabf-293b-8f00" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f73d-cb5c-0dc2-9b5f" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <characteristics>
-                    <characteristic name="Move" typeId="ed7a-c503-b270-885d">7</characteristic>
-                    <characteristic name="Life" typeId="137b-d13e-dda6-0530">11</characteristic>
-                    <characteristic name="Combat" typeId="b936-d350-1b5b-fb34">7</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="e0df-2cb9-eb6e-b411" name="Stinging Poison" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">When the Serpent Knight attacks, each Combat Attack dice that results in a 6 deals 2 damage instead of 1.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="5045-2a37-6f07-6e69" name="Evolutions" hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="f73d-cb5c-0dc2-9b5f" name="Superior Evolution" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1379-69bb-a41e-df44" type="max"/>
-                      </constraints>
-                      <profiles>
-                        <profile id="64c2-e99f-1184-2d2c" name="Superior Evolution" hidden="false" typeId="6ccd-fe51-809b-d201" typeName="Evolutions">
-                          <characteristics>
-                            <characteristic name="Description" typeId="49c9-3fde-e2cf-1269">Increase the Move ability by 2. ([Move], [Life], [Combat] are automaticaly increased in demon&apos;s profile by Battlescribe)</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="26.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="bce6-7248-10e4-bfef" name="Superior Demon" hidden="false" collective="false" import="true" type="unit">
-      <categoryLinks>
-        <categoryLink id="5bed-0889-f58e-7831" name="New CategoryLink" hidden="false" targetId="0894-68fa-8134-6e32" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="c72f-a069-b964-f6c2" name="Type" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3eb9-389c-f3ff-f285" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b85-2da3-9bf6-1805" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="d1a5-339e-4314-b572" name="Lord of Flame" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="c211-d0bd-9727-cd71" name="Lord of Flame" hidden="false" typeId="b8bf-34dc-6f26-5b03" typeName="Demon">
-                  <characteristics>
-                    <characteristic name="Move" typeId="ed7a-c503-b270-885d">8</characteristic>
-                    <characteristic name="Life" typeId="137b-d13e-dda6-0530">11</characteristic>
-                    <characteristic name="Combat" typeId="b936-d350-1b5b-fb34">7</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="5a18-7f6b-7ee7-99e6" name="Ignition" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">When the Lord of Flame attacks, deal 1 damage to all demons within 3” of the Lord of Flame for each natural 6 rolled as part of the Combat Attack roll.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="071e-5f19-be3e-beb9" name="Fly" hidden="false" targetId="0f98-10c6-6882-0263" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="36.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="4faf-9667-0206-bc06" name="Shadow King" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="9e40-20b4-0ac9-d38f" name="Shadow King" hidden="false" typeId="b8bf-34dc-6f26-5b03" typeName="Demon">
-                  <characteristics>
-                    <characteristic name="Move" typeId="ed7a-c503-b270-885d">7</characteristic>
-                    <characteristic name="Life" typeId="137b-d13e-dda6-0530">10</characteristic>
-                    <characteristic name="Combat" typeId="b936-d350-1b5b-fb34">6</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="f236-2443-cecc-4f87" name="Shadow and Smoke" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">Once per round, when the Shadow King is attacked, they may reduce all damage dealt to them by a single attacker to 0.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="e76c-661e-9d57-d54e" name="Fly" hidden="false" targetId="0f98-10c6-6882-0263" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="33.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="f60b-0871-6baa-596b" name="Venom Queen" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="71e5-8f77-7798-833d" name="Venom Queen" hidden="false" typeId="b8bf-34dc-6f26-5b03" typeName="Demon">
-                  <characteristics>
-                    <characteristic name="Move" typeId="ed7a-c503-b270-885d">5</characteristic>
-                    <characteristic name="Life" typeId="137b-d13e-dda6-0530">13</characteristic>
-                    <characteristic name="Combat" typeId="b936-d350-1b5b-fb34">5</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="1fd0-16b4-dbe2-f43d" name="Melting Touch" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">When the Acid Queen attacks, any enemy damaged suffers the same amount of damage dealt the next time they activate.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="31.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="3d4e-0dc3-867f-d719" name="Cabal Philosophy" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
         <categoryLink id="c489-8d8c-15bd-3efa" name="New CategoryLink" hidden="false" targetId="37f0-28f2-907e-0230" primary="true"/>
@@ -871,9 +138,6 @@ by 1. ([Move], [Life], [Combat] are automaticaly increased in demon&apos;s profi
               </costs>
             </selectionEntry>
             <selectionEntry id="b1a5-013b-a2a3-9831" name="Lords of Hell" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="cc7c-c1bb-7f20-8378" value="-22.0"/>
-              </modifiers>
               <profiles>
                 <profile id="60b1-f01c-e14b-24d6" name="Lords of Hell" hidden="false" typeId="b810-d409-f2f5-d758" typeName="Cabal Philosophy">
                   <characteristics>
@@ -943,6 +207,7 @@ by 1. ([Move], [Life], [Combat] are automaticaly increased in demon&apos;s profi
         <entryLink id="b6c3-ba92-1e5e-c4da" name="Leader Relic" hidden="false" collective="false" import="true" targetId="bb3b-a330-315d-29b7" type="selectionEntryGroup"/>
         <entryLink id="6b1b-66cd-d9a6-7be3" name="Essences" hidden="false" collective="false" import="true" targetId="8203-8eda-7dd0-0d14" type="selectionEntryGroup"/>
         <entryLink id="f5f2-6f59-66dc-04ae" name="Relics" hidden="false" collective="false" import="true" targetId="8491-9948-0782-27e1" type="selectionEntryGroup"/>
+        <entryLink id="31ec-9075-2d4b-ce69" name="Titles" hidden="false" collective="false" import="true" targetId="e1c5-68bd-c4c7-8850" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
@@ -967,6 +232,7 @@ by 1. ([Move], [Life], [Combat] are automaticaly increased in demon&apos;s profi
         <entryLink id="8e8e-1ee4-1808-ee56" name="Leader Essence" hidden="false" collective="false" import="true" targetId="6023-bb92-c769-ef27" type="selectionEntryGroup"/>
         <entryLink id="05aa-2185-d364-ce6e" name="Essence" hidden="false" collective="false" import="true" targetId="8203-8eda-7dd0-0d14" type="selectionEntryGroup"/>
         <entryLink id="7f33-37c4-92a4-038b" name="Relics" hidden="false" collective="false" import="true" targetId="8491-9948-0782-27e1" type="selectionEntryGroup"/>
+        <entryLink id="9c52-b2ed-9dda-5c91" name="Titles" hidden="false" collective="false" import="true" targetId="e1c5-68bd-c4c7-8850" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
@@ -991,6 +257,7 @@ by 1. ([Move], [Life], [Combat] are automaticaly increased in demon&apos;s profi
         <entryLink id="4105-d3ed-da32-f58a" name="Leader Essence" hidden="false" collective="false" import="true" targetId="6023-bb92-c769-ef27" type="selectionEntryGroup"/>
         <entryLink id="2795-69a0-753f-25eb" name="Essences" hidden="false" collective="false" import="true" targetId="8203-8eda-7dd0-0d14" type="selectionEntryGroup"/>
         <entryLink id="3182-a8bf-1ec0-b849" name="Relics" hidden="false" collective="false" import="true" targetId="8491-9948-0782-27e1" type="selectionEntryGroup"/>
+        <entryLink id="06f7-9dc8-471d-d26e" name="Titles" hidden="false" collective="false" import="true" targetId="e1c5-68bd-c4c7-8850" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
@@ -1082,6 +349,7 @@ by 1. ([Move], [Life], [Combat] are automaticaly increased in demon&apos;s profi
       <entryLinks>
         <entryLink id="59a9-0e5d-0b71-03e9" name="Essence" hidden="false" collective="false" import="true" targetId="8203-8eda-7dd0-0d14" type="selectionEntryGroup"/>
         <entryLink id="7d06-8323-8a0e-face" name="Relics" hidden="false" collective="false" import="true" targetId="8491-9948-0782-27e1" type="selectionEntryGroup"/>
+        <entryLink id="426a-5706-9cc3-5434" name="Titles" hidden="false" collective="false" import="true" targetId="e1c5-68bd-c4c7-8850" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
@@ -1185,6 +453,7 @@ by 1. ([Move], [Life], [Combat] are automaticaly increased in demon&apos;s profi
       <entryLinks>
         <entryLink id="c385-37f0-0b5f-501e" name="Essence" hidden="false" collective="false" import="true" targetId="8203-8eda-7dd0-0d14" type="selectionEntryGroup"/>
         <entryLink id="b11b-9d07-2e61-1c64" name="Relics" hidden="false" collective="false" import="true" targetId="8491-9948-0782-27e1" type="selectionEntryGroup"/>
+        <entryLink id="8c5c-156f-d8fa-9b6d" name="Titles" hidden="false" collective="false" import="true" targetId="e1c5-68bd-c4c7-8850" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
@@ -1286,6 +555,7 @@ by 1. ([Move], [Life], [Combat] are automaticaly increased in demon&apos;s profi
       <entryLinks>
         <entryLink id="f5c6-7cfe-5bcb-4ea3" name="Essence" hidden="false" collective="false" import="true" targetId="8203-8eda-7dd0-0d14" type="selectionEntryGroup"/>
         <entryLink id="da72-06fa-369c-a56c" name="Relics" hidden="false" collective="false" import="true" targetId="8491-9948-0782-27e1" type="selectionEntryGroup"/>
+        <entryLink id="c8d4-e9c6-379b-c996" name="Titles" hidden="false" collective="false" import="true" targetId="e1c5-68bd-c4c7-8850" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
@@ -1384,6 +654,7 @@ by 1. ([Move], [Life], [Combat] are automaticaly increased in demon&apos;s profi
       <entryLinks>
         <entryLink id="217d-e413-b192-a9f2" name="Essence" hidden="false" collective="false" import="true" targetId="8203-8eda-7dd0-0d14" type="selectionEntryGroup"/>
         <entryLink id="7c9b-0300-325e-633d" name="Relics" hidden="false" collective="false" import="true" targetId="8491-9948-0782-27e1" type="selectionEntryGroup"/>
+        <entryLink id="b6b6-ca08-dd26-77a7" name="Titles" hidden="false" collective="false" import="true" targetId="e1c5-68bd-c4c7-8850" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
@@ -1490,6 +761,7 @@ by 1. ([Move], [Life], [Combat] are automaticaly increased in demon&apos;s profi
       <entryLinks>
         <entryLink id="734e-5795-8d8d-448e" name="Essence" hidden="false" collective="false" import="true" targetId="8203-8eda-7dd0-0d14" type="selectionEntryGroup"/>
         <entryLink id="6bd1-f8ea-cec2-b7be" name="Relics" hidden="false" collective="false" import="true" targetId="8491-9948-0782-27e1" type="selectionEntryGroup"/>
+        <entryLink id="c9f7-700b-3d5a-21f1" name="Titles" hidden="false" collective="false" import="true" targetId="e1c5-68bd-c4c7-8850" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
@@ -1588,9 +860,846 @@ by 1. ([Move], [Life], [Combat] are automaticaly increased in demon&apos;s profi
       <entryLinks>
         <entryLink id="1e78-a7a0-290b-3e9b" name="Essence" hidden="false" collective="false" import="true" targetId="8203-8eda-7dd0-0d14" type="selectionEntryGroup"/>
         <entryLink id="6c79-1b0e-8ee9-c5b1" name="Relics" hidden="false" collective="false" import="true" targetId="8491-9948-0782-27e1" type="selectionEntryGroup"/>
+        <entryLink id="a372-63ed-2ffb-f635" name="Titles" hidden="false" collective="false" import="true" targetId="e1c5-68bd-c4c7-8850" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9f11-4270-8cad-7683" name="Armored Demon" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="cc7c-c1bb-7f20-8378" value="0.0">
+          <conditions>
+            <condition field="selections" scope="9f11-4270-8cad-7683" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ef13-45ba-e4b3-2de9" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="4407-31ba-6654-5d21" name="Armored Demon" hidden="false" typeId="b8bf-34dc-6f26-5b03" typeName="Demon">
+          <modifiers>
+            <modifier type="increment" field="b936-d350-1b5b-fb34" value="1.0">
+              <conditions>
+                <condition field="selections" scope="9f11-4270-8cad-7683" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="68cf-80c4-17a6-a823" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="137b-d13e-dda6-0530" value="1.0">
+              <conditions>
+                <condition field="selections" scope="9f11-4270-8cad-7683" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="68cf-80c4-17a6-a823" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" typeId="ed7a-c503-b270-885d">4</characteristic>
+            <characteristic name="Life" typeId="137b-d13e-dda6-0530">13</characteristic>
+            <characteristic name="Combat" typeId="b936-d350-1b5b-fb34">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8ce6-0804-ec05-b264" name="Steely Skin" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">When the Armored Demon rolls Combat Defense dice, they may choose to change he result of any one Combat Defense die to a 6.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="baec-0e8a-8d3c-458d" name="New CategoryLink" hidden="false" targetId="b93b-d800-9ee4-11fd" primary="true"/>
+        <categoryLink id="140e-d451-2fb3-a515" name="Minion" hidden="false" targetId="0894-68fa-8134-6e32" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="76b2-310b-f62a-74b2" name="Evolutions" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="0c96-9c64-2dca-ceec" name="Greater Evolution" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="fd0c-94e2-63c4-bdfa" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="9f11-4270-8cad-7683" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="68cf-80c4-17a6-a823" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a119-7cdc-8a1c-6822" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd0c-94e2-63c4-bdfa" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="51cd-9a57-57ae-eedc" name="Greater Evolution" hidden="false" typeId="6ccd-fe51-809b-d201" typeName="Evolutions">
+                  <characteristics>
+                    <characteristic name="Description" typeId="49c9-3fde-e2cf-1269">When using Steely Skin, the Iron Demon may change the result of 2 Cobat dice to a 6.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="68cf-80c4-17a6-a823" name="Superior Evolution" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81a5-7871-ca9e-bef3" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="dbfe-48df-b608-cf0b" name="Superior Evolution" hidden="false" typeId="6ccd-fe51-809b-d201" typeName="Evolutions">
+                  <characteristics>
+                    <characteristic name="Description" typeId="49c9-3fde-e2cf-1269">Increase the Combat ability and Life by 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="cd67-00c5-9753-ce5b" name="Essences" hidden="false" collective="false" import="true" targetId="8203-8eda-7dd0-0d14" type="selectionEntryGroup"/>
+        <entryLink id="3bb1-b142-1905-b196" name="Relics" hidden="false" collective="false" import="true" targetId="8491-9948-0782-27e1" type="selectionEntryGroup"/>
+        <entryLink id="ad03-bb36-9c3c-2515" name="Lords of Hell Free Lesser Demon Minion" hidden="false" collective="false" import="true" targetId="ef13-45ba-e4b3-2de9" type="selectionEntry"/>
+        <entryLink id="aa5e-a2dd-266b-2f92" name="Titles" hidden="false" collective="false" import="true" targetId="e1c5-68bd-c4c7-8850" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="22.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="153f-9201-8d9d-763f" name="Corpulent Demon" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="cc7c-c1bb-7f20-8378" value="0.0">
+          <conditions>
+            <condition field="selections" scope="153f-9201-8d9d-763f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ef13-45ba-e4b3-2de9" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="f3c4-2282-1dfa-5806" name="Corpulent Demon" hidden="false" typeId="b8bf-34dc-6f26-5b03" typeName="Demon">
+          <modifiers>
+            <modifier type="increment" field="137b-d13e-dda6-0530" value="2">
+              <conditions>
+                <condition field="selections" scope="153f-9201-8d9d-763f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d9a0-3dff-6da5-412a" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" typeId="ed7a-c503-b270-885d">4</characteristic>
+            <characteristic name="Life" typeId="137b-d13e-dda6-0530">15</characteristic>
+            <characteristic name="Combat" typeId="b936-d350-1b5b-fb34">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="305d-b9bf-a270-c428" name="Pile of Flesh" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">When the Corpulent Demon activates, they heal 2 damage.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="30f8-193c-d4b2-67bb" name="New CategoryLink" hidden="false" targetId="b93b-d800-9ee4-11fd" primary="true"/>
+        <categoryLink id="6242-9a63-35b4-ca39" name="Minion" hidden="false" targetId="0894-68fa-8134-6e32" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="348e-f896-3004-5e42" name="Evolutions" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="d9a0-3dff-6da5-412a" name="Greater Evolution" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="556e-114f-066b-afa4" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="153f-9201-8d9d-763f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9968-65cb-ac7f-2d27" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c66e-b1fb-8971-1b88" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="556e-114f-066b-afa4" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="0c99-ea2f-6226-9a4a" name="Greater Evolution" hidden="false" typeId="6ccd-fe51-809b-d201" typeName="Evolutions">
+                  <characteristics>
+                    <characteristic name="Description" typeId="49c9-3fde-e2cf-1269">Increase the Life ability by 2. ([Move], [Life], [Combat] are automaticaly increased in demon&apos;s profile by Battlescribe)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9968-65cb-ac7f-2d27" name="Superior Evolution" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa9c-155f-0967-e87c" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="9212-e0c8-ea94-7625" name="Superior Evolution" hidden="false" typeId="6ccd-fe51-809b-d201" typeName="Evolutions">
+                  <characteristics>
+                    <characteristic name="Description" typeId="49c9-3fde-e2cf-1269">When the Pile of Flesh ability triggers, it heals one additional Life.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b8d3-a7c7-3080-7e98" name="Essences" hidden="false" collective="false" import="true" targetId="8203-8eda-7dd0-0d14" type="selectionEntryGroup"/>
+        <entryLink id="527f-0171-1180-3f0c" name="Relics" hidden="false" collective="false" import="true" targetId="8491-9948-0782-27e1" type="selectionEntryGroup"/>
+        <entryLink id="3585-20ad-dda3-5950" name="Lords of Hell Free Lesser Demon Minion" hidden="false" collective="false" import="true" targetId="ef13-45ba-e4b3-2de9" type="selectionEntry"/>
+        <entryLink id="0c0f-3629-768c-c4aa" name="Titles" hidden="false" collective="false" import="true" targetId="e1c5-68bd-c4c7-8850" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="17.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="14fe-4235-27f2-0fcd" name="Mephit" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="cc7c-c1bb-7f20-8378" value="0.0">
+          <conditions>
+            <condition field="selections" scope="14fe-4235-27f2-0fcd" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ef13-45ba-e4b3-2de9" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="08b8-9189-0d84-472e" name="Mephit" hidden="false" typeId="b8bf-34dc-6f26-5b03" typeName="Demon">
+          <modifiers>
+            <modifier type="increment" field="ed7a-c503-b270-885d" value="1.0">
+              <conditions>
+                <condition field="selections" scope="14fe-4235-27f2-0fcd" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="63a1-d762-399a-8d34" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="b936-d350-1b5b-fb34" value="1.0">
+              <conditions>
+                <condition field="selections" scope="14fe-4235-27f2-0fcd" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="63a1-d762-399a-8d34" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="ed7a-c503-b270-885d" value="1.0">
+              <conditions>
+                <condition field="selections" scope="14fe-4235-27f2-0fcd" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="817e-5b15-df54-abfa" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" typeId="ed7a-c503-b270-885d">9</characteristic>
+            <characteristic name="Life" typeId="137b-d13e-dda6-0530">7</characteristic>
+            <characteristic name="Combat" typeId="b936-d350-1b5b-fb34">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="24db-b33c-88c7-4735" name="Sting and Move" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">When using Running Skirmish, the Mephit may increase their Move ability by 3.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8ae3-8627-8412-d15a" name="Fly" hidden="false" targetId="0f98-10c6-6882-0263" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5447-befc-34d2-3321" name="New CategoryLink" hidden="false" targetId="b93b-d800-9ee4-11fd" primary="true"/>
+        <categoryLink id="9498-dbc9-e04b-edd6" name="Minion" hidden="false" targetId="0894-68fa-8134-6e32" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a3de-a174-6129-9fb3" name="Evolutions" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="817e-5b15-df54-abfa" name="Greater Evolution" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="28ff-f7a4-4d88-c7fd" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="63a1-d762-399a-8d34" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6a9-9391-f520-807b" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28ff-f7a4-4d88-c7fd" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="d50e-61a3-71c4-735a" name="Greater Evolution" hidden="false" typeId="6ccd-fe51-809b-d201" typeName="Evolutions">
+                  <characteristics>
+                    <characteristic name="Description" typeId="49c9-3fde-e2cf-1269">Increase the Move ability by 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="63a1-d762-399a-8d34" name="Superior Evolution" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="066f-97a2-947a-c0f7" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="672b-604f-9187-b1d3" name="Superior Evolution" hidden="false" typeId="6ccd-fe51-809b-d201" typeName="Evolutions">
+                  <characteristics>
+                    <characteristic name="Description" typeId="49c9-3fde-e2cf-1269">Increase the Move ability and the Combat ability by 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7cc6-407f-5ee3-cb1d" name="Relics" hidden="false" collective="false" import="true" targetId="8491-9948-0782-27e1" type="selectionEntryGroup"/>
+        <entryLink id="2dc6-da6b-fb94-5f3e" name="Essences" hidden="false" collective="false" import="true" targetId="8203-8eda-7dd0-0d14" type="selectionEntryGroup"/>
+        <entryLink id="4669-d258-88f4-bbfc" name="Lords of Hell Free Lesser Demon Minion" hidden="false" collective="false" import="true" targetId="ef13-45ba-e4b3-2de9" type="selectionEntry"/>
+        <entryLink id="ec40-170b-e70e-f1ad" name="Titles" hidden="false" collective="false" import="true" targetId="e1c5-68bd-c4c7-8850" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6e2b-bc5d-fbc4-e97d" name="Slaughter Fiend" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="cc7c-c1bb-7f20-8378" value="0.0">
+          <conditions>
+            <condition field="selections" scope="6e2b-bc5d-fbc4-e97d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ef13-45ba-e4b3-2de9" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="5f3d-b235-ded8-442d" name="Slaughter Fiend" hidden="false" typeId="b8bf-34dc-6f26-5b03" typeName="Demon">
+          <modifiers>
+            <modifier type="increment" field="b936-d350-1b5b-fb34" value="1.0">
+              <conditions>
+                <condition field="selections" scope="6e2b-bc5d-fbc4-e97d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fd6e-e735-6a3c-dffb" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="137b-d13e-dda6-0530" value="1.0">
+              <conditions>
+                <condition field="selections" scope="6e2b-bc5d-fbc4-e97d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fd6e-e735-6a3c-dffb" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="b936-d350-1b5b-fb34" value="1.0">
+              <conditions>
+                <condition field="selections" scope="6e2b-bc5d-fbc4-e97d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b290-8733-036b-159f" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" typeId="ed7a-c503-b270-885d">5</characteristic>
+            <characteristic name="Life" typeId="137b-d13e-dda6-0530">10</characteristic>
+            <characteristic name="Combat" typeId="b936-d350-1b5b-fb34">6</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9841-a910-fbe6-549c" name="Paragons of Slaughter" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">When the Slaughter Fiend uses Focused Combat, they gain +2 to their Combat ability for the Attack roll (they gain +1 to Combat Defense rolls as normal).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="7252-e4a3-2cd8-aa22" name="New CategoryLink" hidden="false" targetId="b93b-d800-9ee4-11fd" primary="true"/>
+        <categoryLink id="fe16-3de3-a18a-486e" name="Minion" hidden="false" targetId="0894-68fa-8134-6e32" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8fbd-6533-143e-7820" name="Evolutions" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="b290-8733-036b-159f" name="Greater Evolution" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="5871-eac0-77c6-29b2" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="6e2b-bc5d-fbc4-e97d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fd6e-e735-6a3c-dffb" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76a8-e0c8-42a1-d6f4" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5871-eac0-77c6-29b2" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="003f-272b-3b12-9dd3" name="Greater Evolution" hidden="false" typeId="6ccd-fe51-809b-d201" typeName="Evolutions">
+                  <characteristics>
+                    <characteristic name="Description" typeId="49c9-3fde-e2cf-1269">Increase the Combat ability by 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fd6e-e735-6a3c-dffb" name="Superior Evolution" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5ef-6694-a6f6-e7b2" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="a0fc-ff8d-f10f-4c3a" name="Superior Evolution" hidden="false" typeId="6ccd-fe51-809b-d201" typeName="Evolutions">
+                  <characteristics>
+                    <characteristic name="Description" typeId="49c9-3fde-e2cf-1269">Increase the Combat ability and Life by 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d770-56f5-80dc-d5d6" name="Relics" hidden="false" collective="false" import="true" targetId="8491-9948-0782-27e1" type="selectionEntryGroup"/>
+        <entryLink id="4428-db1d-d6fa-38bc" name="Essences" hidden="false" collective="false" import="true" targetId="8203-8eda-7dd0-0d14" type="selectionEntryGroup"/>
+        <entryLink id="b9f4-fb1f-7a13-1868" name="Lords of Hell Free Lesser Demon Minion" hidden="false" collective="false" import="true" targetId="ef13-45ba-e4b3-2de9" type="selectionEntry"/>
+        <entryLink id="e4fc-58dd-3a30-8bf6" name="Titles" hidden="false" collective="false" import="true" targetId="e1c5-68bd-c4c7-8850" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="21.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1108-18be-2eb4-f184" name="Spined Demon" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="cc7c-c1bb-7f20-8378" value="0.0">
+          <conditions>
+            <condition field="selections" scope="1108-18be-2eb4-f184" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ef13-45ba-e4b3-2de9" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="a6cb-2049-c529-b34d" name="Spined Demon" hidden="false" typeId="b8bf-34dc-6f26-5b03" typeName="Demon">
+          <modifiers>
+            <modifier type="increment" field="ed7a-c503-b270-885d" value="1.0">
+              <conditions>
+                <condition field="selections" scope="1108-18be-2eb4-f184" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d122-6d96-a389-ed70" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" typeId="ed7a-c503-b270-885d">6</characteristic>
+            <characteristic name="Life" typeId="137b-d13e-dda6-0530">7</characteristic>
+            <characteristic name="Combat" typeId="b936-d350-1b5b-fb34">6</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c1b0-6ed2-c933-06b9" name="Impaling Charge" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">When the Spined Demon uses Charge, they may reroll up to 3 dice from their Combat Attack roll.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="4a15-0335-6b8b-3fc9" name="New CategoryLink" hidden="false" targetId="b93b-d800-9ee4-11fd" primary="true"/>
+        <categoryLink id="bbb5-ff1b-ac9b-b88c" name="Minion" hidden="false" targetId="0894-68fa-8134-6e32" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2bf8-276e-5e09-eee9" name="Evolutions" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="d122-6d96-a389-ed70" name="Greater Evolution" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="d83d-86ee-577d-ac5d" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="1108-18be-2eb4-f184" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5b62-6799-9e57-2e1b" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be5c-e29d-2f3c-425a" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d83d-86ee-577d-ac5d" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="db71-1844-3947-c1b4" name="Greater Evolution" hidden="false" typeId="6ccd-fe51-809b-d201" typeName="Evolutions">
+                  <characteristics>
+                    <characteristic name="Description" typeId="49c9-3fde-e2cf-1269">Increase the Movement ability by 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5b62-6799-9e57-2e1b" name="Superior Evolution" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea1e-0e31-5626-29e1" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="b202-7df8-24b3-d7c6" name="Superior Evolution" hidden="false" typeId="6ccd-fe51-809b-d201" typeName="Evolutions">
+                  <characteristics>
+                    <characteristic name="Description" typeId="49c9-3fde-e2cf-1269">If the Spined Demon deals damage when making an attack, increase the damage dealt by 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3a94-57fc-16a2-16dc" name="Essences" hidden="false" collective="false" import="true" targetId="8203-8eda-7dd0-0d14" type="selectionEntryGroup"/>
+        <entryLink id="282c-c12e-0efe-e220" name="Relics" hidden="false" collective="false" import="true" targetId="8491-9948-0782-27e1" type="selectionEntryGroup"/>
+        <entryLink id="9061-3413-45b3-8144" name="Lords of Hell Free Lesser Demon Minion" hidden="false" collective="false" import="true" targetId="ef13-45ba-e4b3-2de9" type="selectionEntry"/>
+        <entryLink id="911a-a8b2-db79-f3ec" name="Titles" hidden="false" collective="false" import="true" targetId="e1c5-68bd-c4c7-8850" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="19.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b878-b2d7-8047-ec20" name="Tentacle Beast" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="cc7c-c1bb-7f20-8378" value="0.0">
+          <conditions>
+            <condition field="selections" scope="b878-b2d7-8047-ec20" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ef13-45ba-e4b3-2de9" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="e63d-ef13-fc7b-9142" name="Tentacle Beast" hidden="false" typeId="b8bf-34dc-6f26-5b03" typeName="Demon">
+          <modifiers>
+            <modifier type="increment" field="ed7a-c503-b270-885d" value="1.0">
+              <conditions>
+                <condition field="selections" scope="b878-b2d7-8047-ec20" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3f2d-7b6b-3ed0-5352" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="b936-d350-1b5b-fb34" value="1.0">
+              <conditions>
+                <condition field="selections" scope="b878-b2d7-8047-ec20" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e96a-af90-ad4c-94bc" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" typeId="ed7a-c503-b270-885d">8</characteristic>
+            <characteristic name="Life" typeId="137b-d13e-dda6-0530">9</characteristic>
+            <characteristic name="Combat" typeId="b936-d350-1b5b-fb34">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3b8b-d2ea-26ee-01d5" name="Grappling Arms" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">Enemy demons within 1” of any Tentacle Beast reduce their Combat Ability by 1.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="5fe4-0115-8986-e538" name="New CategoryLink" hidden="false" targetId="b93b-d800-9ee4-11fd" primary="true"/>
+        <categoryLink id="edee-08a3-4ec5-2a89" name="Minion" hidden="false" targetId="0894-68fa-8134-6e32" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="cd0c-0cab-6314-1e2d" name="Evolutions" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="e96a-af90-ad4c-94bc" name="Greater Evolution" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="2911-6d05-0ff6-0a02" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="b878-b2d7-8047-ec20" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3f2d-7b6b-3ed0-5352" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f45-f225-725c-84bb" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2911-6d05-0ff6-0a02" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="82b7-109a-487c-6fc5" name="Greater Evolution" hidden="false" typeId="6ccd-fe51-809b-d201" typeName="Evolutions">
+                  <characteristics>
+                    <characteristic name="Description" typeId="49c9-3fde-e2cf-1269">Increase the Combat ability by 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3f2d-7b6b-3ed0-5352" name="Superior Evolution" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9edd-6d01-27f9-2c78" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="c885-e443-70db-a2eb" name="Superior Evolution" hidden="false" typeId="6ccd-fe51-809b-d201" typeName="Evolutions">
+                  <characteristics>
+                    <characteristic name="Description" typeId="49c9-3fde-e2cf-1269">Increase the Move ability by 1 and the Tentacle Beast also reduces the Movement ability of all enemies within 1” by 3”.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="afe1-502e-5951-6387" name="Essences" hidden="false" collective="false" import="true" targetId="8203-8eda-7dd0-0d14" type="selectionEntryGroup"/>
+        <entryLink id="5b99-43d0-88c4-5361" name="Relics" hidden="false" collective="false" import="true" targetId="8491-9948-0782-27e1" type="selectionEntryGroup"/>
+        <entryLink id="bec9-d65f-496f-3db9" name="Lords of Hell Free Lesser Demon Minion" hidden="false" collective="false" import="true" targetId="ef13-45ba-e4b3-2de9" type="selectionEntry"/>
+        <entryLink id="63fd-8357-dc0e-4d51" name="Titles" hidden="false" collective="false" import="true" targetId="e1c5-68bd-c4c7-8850" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="21.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ef13-45ba-e4b3-2de9" name="Lords of Hell Free Lesser Demon Minion" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b1a5-013b-a2a3-9831" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="620d-6804-2170-241f" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7477-7b5c-d08e-2661" type="max"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry id="60c9-685f-3128-1d18" name="Marquess d&apos;Winter" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="0bbe-01fe-c253-0383" name="Marquess d&apos;Winter" hidden="false" typeId="b8bf-34dc-6f26-5b03" typeName="Demon">
+          <modifiers>
+            <modifier type="increment" field="b936-d350-1b5b-fb34" value="1">
+              <conditions>
+                <condition field="selections" scope="60c9-685f-3128-1d18" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0d26-7af5-6f12-f09b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="137b-d13e-dda6-0530" value="1">
+              <conditions>
+                <condition field="selections" scope="60c9-685f-3128-1d18" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0d26-7af5-6f12-f09b" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" typeId="ed7a-c503-b270-885d">4</characteristic>
+            <characteristic name="Life" typeId="137b-d13e-dda6-0530">11</characteristic>
+            <characteristic name="Combat" typeId="b936-d350-1b5b-fb34">6</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f7fd-39bb-a96d-dc94" name="Touch of Winter" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">When another demon makes a Combat Attack roll against the Marquess d’Winter, increase the target number needed to hit by 1.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ecdb-4448-f20f-c9d1" name="Greater Demon" hidden="false" targetId="8bfb-862a-17d4-a3b6" primary="true"/>
+        <categoryLink id="64b3-bcc1-5864-0be9" name="Minion" hidden="false" targetId="0894-68fa-8134-6e32" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d2f8-2e6c-3c6b-b5b3" name="Evolutions" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="0d26-7af5-6f12-f09b" name="Superior Evolution" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09a5-08ee-f43c-a92b" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="837a-cfac-5801-e0bd" name="Superior Evolution" hidden="false" typeId="6ccd-fe51-809b-d201" typeName="Evolutions">
+                  <characteristics>
+                    <characteristic name="Description" typeId="49c9-3fde-e2cf-1269">Increase the Combat ability and Life ability by 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="a476-c254-0359-2c8a" name="Relics" hidden="false" collective="false" import="true" targetId="8491-9948-0782-27e1" type="selectionEntryGroup"/>
+        <entryLink id="4538-5ce4-1234-d1f2" name="Essences" hidden="false" collective="false" import="true" targetId="8203-8eda-7dd0-0d14" type="selectionEntryGroup"/>
+        <entryLink id="972d-a148-a953-6645" name="Titles" hidden="false" collective="false" import="true" targetId="e1c5-68bd-c4c7-8850" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="24.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d2a7-ca49-4982-f449" name="Serpent Knight" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="61cb-3336-c061-2c5f" name="Serpent Knight" hidden="false" typeId="b8bf-34dc-6f26-5b03" typeName="Demon">
+          <modifiers>
+            <modifier type="increment" field="ed7a-c503-b270-885d" value="2">
+              <conditions>
+                <condition field="selections" scope="d2a7-ca49-4982-f449" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="422d-2e4d-e7dd-d050" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" typeId="ed7a-c503-b270-885d">7</characteristic>
+            <characteristic name="Life" typeId="137b-d13e-dda6-0530">11</characteristic>
+            <characteristic name="Combat" typeId="b936-d350-1b5b-fb34">7</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3b09-d0c4-d721-e938" name="Stinging Poison" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">When the Serpent Knight attacks, each Combat Attack dice that results in a 6 deals 2 damage instead of 1.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ccda-e899-d333-4252" name="New CategoryLink" hidden="false" targetId="8bfb-862a-17d4-a3b6" primary="true"/>
+        <categoryLink id="30bc-896f-d314-2471" name="Minion" hidden="false" targetId="0894-68fa-8134-6e32" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7b5e-e2c1-9b03-3b14" name="Evolutions" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="422d-2e4d-e7dd-d050" name="Superior Evolution" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7244-e062-d921-3e1e" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="d0be-9213-de14-8568" name="Superior Evolution" hidden="false" typeId="6ccd-fe51-809b-d201" typeName="Evolutions">
+                  <characteristics>
+                    <characteristic name="Description" typeId="49c9-3fde-e2cf-1269">Increase the Move ability by 2.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="37b9-780d-5d18-951a" name="Essences" hidden="false" collective="false" import="true" targetId="8203-8eda-7dd0-0d14" type="selectionEntryGroup"/>
+        <entryLink id="8258-af2d-1a12-42df" name="Relics" hidden="false" collective="false" import="true" targetId="8491-9948-0782-27e1" type="selectionEntryGroup"/>
+        <entryLink id="75c0-6b16-fc73-a427" name="Titles" hidden="false" collective="false" import="true" targetId="e1c5-68bd-c4c7-8850" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="26.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f245-de4d-e18b-85e6" name="Torture Master" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="2038-5f7b-8815-4672" name="Torture Master" hidden="false" typeId="b8bf-34dc-6f26-5b03" typeName="Demon">
+          <modifiers>
+            <modifier type="increment" field="137b-d13e-dda6-0530" value="1">
+              <conditions>
+                <condition field="selections" scope="f245-de4d-e18b-85e6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a55d-d042-8578-4685" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="b936-d350-1b5b-fb34" value="1">
+              <conditions>
+                <condition field="selections" scope="f245-de4d-e18b-85e6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a55d-d042-8578-4685" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" typeId="ed7a-c503-b270-885d">6</characteristic>
+            <characteristic name="Life" typeId="137b-d13e-dda6-0530">10</characteristic>
+            <characteristic name="Combat" typeId="b936-d350-1b5b-fb34">6</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="42a0-005e-30aa-5c9a" name="Heed the Lash" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">When the Torture Master attacks, each Combat Attack dice that results in a 6 reduces either the Move, Life or Combat of the target by 1 for the rest of the game. When you reduce Life in this way, both their maximum and current Life ability are reduced by this amount.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="c618-917c-646f-cb74" name="New CategoryLink" hidden="false" targetId="8bfb-862a-17d4-a3b6" primary="true"/>
+        <categoryLink id="61a5-b99d-e69d-cf34" name="Minion" hidden="false" targetId="0894-68fa-8134-6e32" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="22f0-9b56-87fc-7de2" name="Evolutions" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="a55d-d042-8578-4685" name="Superior Evolution" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24e5-7773-3f33-5a82" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="1753-f1db-57dd-422d" name="Superior Evolution" hidden="false" typeId="6ccd-fe51-809b-d201" typeName="Evolutions">
+                  <characteristics>
+                    <characteristic name="Description" typeId="49c9-3fde-e2cf-1269">Increase the Combat ability and Life ability by 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5c51-1e8d-8ed3-c808" name="Essences" hidden="false" collective="false" import="true" targetId="8203-8eda-7dd0-0d14" type="selectionEntryGroup"/>
+        <entryLink id="9922-87ab-0a68-8b11" name="Relics" hidden="false" collective="false" import="true" targetId="8491-9948-0782-27e1" type="selectionEntryGroup"/>
+        <entryLink id="73b8-56e0-1d34-a548" name="Titles" hidden="false" collective="false" import="true" targetId="e1c5-68bd-c4c7-8850" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="27.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c8ca-e479-2176-1b40" name="Lord of Flame" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="b70d-8944-6df8-f150" name="Lord of Flame" hidden="false" typeId="b8bf-34dc-6f26-5b03" typeName="Demon">
+          <characteristics>
+            <characteristic name="Move" typeId="ed7a-c503-b270-885d">8</characteristic>
+            <characteristic name="Life" typeId="137b-d13e-dda6-0530">11</characteristic>
+            <characteristic name="Combat" typeId="b936-d350-1b5b-fb34">7</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bc1e-c181-4612-81b7" name="Ignition" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">When the Lord of Flame attacks, deal 1 damage to all demons within 3” of the Lord of Flame for each natural 6 rolled as part of the Combat Attack roll.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9ffc-065c-fe9b-ee7e" name="Fly" hidden="false" targetId="0f98-10c6-6882-0263" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2940-0df0-f09e-de83" name="New CategoryLink" hidden="false" targetId="102e-4c9e-ca12-0454" primary="true"/>
+        <categoryLink id="bc58-c379-057e-1fef" name="Minion" hidden="false" targetId="0894-68fa-8134-6e32" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4127-e160-26ab-1cf6" name="Essences" hidden="false" collective="false" import="true" targetId="8203-8eda-7dd0-0d14" type="selectionEntryGroup"/>
+        <entryLink id="19ed-8640-38dc-f295" name="Relics" hidden="false" collective="false" import="true" targetId="8491-9948-0782-27e1" type="selectionEntryGroup"/>
+        <entryLink id="b9d7-63e6-0d71-6508" name="Titles" hidden="false" collective="false" import="true" targetId="e1c5-68bd-c4c7-8850" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="36.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="299c-5103-baa8-8725" name="Shadow King" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="059d-6bf4-d2ce-efbe" name="Shadow King" hidden="false" typeId="b8bf-34dc-6f26-5b03" typeName="Demon">
+          <characteristics>
+            <characteristic name="Move" typeId="ed7a-c503-b270-885d">7</characteristic>
+            <characteristic name="Life" typeId="137b-d13e-dda6-0530">10</characteristic>
+            <characteristic name="Combat" typeId="b936-d350-1b5b-fb34">6</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="73e2-9cfa-741b-1d75" name="Shadow and Smoke" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">Once per round, when the Shadow King is attacked, they may reduce all damage dealt to them by a single attacker to 0.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ea8a-1735-c51e-1bad" name="Fly" hidden="false" targetId="0f98-10c6-6882-0263" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f7a7-741a-84bd-1ff4" name="New CategoryLink" hidden="false" targetId="102e-4c9e-ca12-0454" primary="true"/>
+        <categoryLink id="826c-3b65-cbf1-63fc" name="Minion" hidden="false" targetId="0894-68fa-8134-6e32" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3d48-7f38-8d03-ba1d" name="Essences" hidden="false" collective="false" import="true" targetId="8203-8eda-7dd0-0d14" type="selectionEntryGroup"/>
+        <entryLink id="d4eb-3857-4fed-7191" name="Relics" hidden="false" collective="false" import="true" targetId="8491-9948-0782-27e1" type="selectionEntryGroup"/>
+        <entryLink id="8498-b350-70c6-e807" name="Titles" hidden="false" collective="false" import="true" targetId="e1c5-68bd-c4c7-8850" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="33.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4c63-a621-3061-08b9" name="Venom Queen" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="04a9-ce4f-adb8-2ca4" name="Venom Queen" hidden="false" typeId="b8bf-34dc-6f26-5b03" typeName="Demon">
+          <characteristics>
+            <characteristic name="Move" typeId="ed7a-c503-b270-885d">5</characteristic>
+            <characteristic name="Life" typeId="137b-d13e-dda6-0530">13</characteristic>
+            <characteristic name="Combat" typeId="b936-d350-1b5b-fb34">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ecdd-8026-a06d-c6b0" name="Melting Touch" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">When the Acid Queen attacks, any enemy damaged suffers the same amount of damage dealt the next time they activate.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3718-01bd-e7c5-3b67" name="New CategoryLink" hidden="false" targetId="102e-4c9e-ca12-0454" primary="true"/>
+        <categoryLink id="e913-0a30-dea7-544e" name="Minion" hidden="false" targetId="0894-68fa-8134-6e32" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9ae9-a337-754f-30df" name="Essences" hidden="false" collective="false" import="true" targetId="8203-8eda-7dd0-0d14" type="selectionEntryGroup"/>
+        <entryLink id="c307-4473-462d-4c47" name="Relics" hidden="false" collective="false" import="true" targetId="8491-9948-0782-27e1" type="selectionEntryGroup"/>
+        <entryLink id="5c53-ae01-818e-eb43" name="Titles" hidden="false" collective="false" import="true" targetId="e1c5-68bd-c4c7-8850" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="31.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1917,6 +2026,142 @@ by 1. ([Move], [Life], [Combat] are automaticaly increased in demon&apos;s profi
           <costs>
             <cost name=" Souls" typeId="cc7c-c1bb-7f20-8378" value="0.0"/>
           </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e1c5-68bd-c4c7-8850" name="Titles" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="8b63-e0b3-dbc2-98fe" name="Backstabber" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="92bd-5d84-e955-6c71" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d6dd-33aa-f013-3a2e" name="Backstabber" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">Whenever this demon slays a friendly model, roll a d6. On  a result of a 5+, they gain an additional Soul Dice.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry id="e18a-348b-b85a-d1d9" name="Pacifist" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="39ea-7171-3e72-a1ba" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b61b-7f4b-6e39-4c5c" name="Pacifist" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">Reduce the demon&apos;s Combat ability by 1 and increase their Life ability by 2.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry id="6c94-a4b5-7955-b690" name="Unstable Steps" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e03b-0700-396a-3adb" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="fd0e-6aa7-13f2-d233" name="Unstable Steps" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">This demon may roll twice when making a check for any terrain and select either result.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry id="e5e1-e0f6-71df-7603" name="Survivor" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7fb3-0c95-0d6f-acb4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0b43-daf2-9de6-3365" name="Survivor" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">Increase the demon&apos;s Life ability by 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry id="1397-5604-069a-9c68" name="End of Faith" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fedb-c9c8-6d99-c582" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c802-f904-0a50-72b2" name="End of Faith" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">Increase your Combat ability by 1 when fighting enemy Devout demons.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry id="d9e3-ad89-263d-8cc6" name="First to Fall" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d983-0fb9-850f-5e55" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f41b-efd6-0f11-4092" name="First to Fall" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">Increase the demon&apos;s Move ability by 3 during their first activation.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry id="2f7c-6f50-4459-0331" name="Regent Slayer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5fbb-3a38-5169-b2c7" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="fd3d-0dde-faec-6661" name="Regent Slayer" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">Increase your Combat ability by 1 when fighting enemy Leaders.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry id="c0f8-8394-6624-536c" name="Soul Stealer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ec20-b1e0-b2ea-650c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9a7c-fd18-9acc-0570" name="Soul Stealer" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">When attacking an enemy with 2 Life or less, increase this demon&apos;s Combat ability by 2.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry id="be3e-7f5c-cb77-2b7b" name="Destroyer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="16af-7838-70fa-489d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="eba2-bbd1-9b73-892b" name="Destroyer" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">Once per battle, after slaying an enemy demon, this demon may immediately fight again, making a second Combat Attack roll against any other enemy in range.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry id="cbbb-b896-9ac7-5834" name="Maladroit" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5618-4f7d-974d-0df5" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f6a6-e5ee-1f60-a0d2" name="Maladroit" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">Roll twice on the Soul loss table, selecting either result.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry id="d204-1fac-e40c-9394" name="Covetous" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2fea-fb69-c316-db94" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ecd7-5b07-9620-3606" name="Covetous" hidden="false" typeId="8366-9fc7-d1ad-f62b" typeName="Special Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="9bf0-bbf8-b277-8619">This demon may carry two Relics.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>

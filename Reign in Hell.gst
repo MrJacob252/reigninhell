@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="22f0-18eb-8fd1-99fa" name="Reign in Hell" revision="4" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="22f0-18eb-8fd1-99fa" name="Reign in Hell" revision="5" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="cc7c-c1bb-7f20-8378" name=" Souls" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -64,6 +64,16 @@
     <profileType id="2803-450f-962f-95f6" name="XP Increase">
       <characteristicTypes>
         <characteristicType id="f6ef-2e82-6713-b355" name="Description"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="ced4-2b3f-b2cf-8dd2" name="Title">
+      <characteristicTypes>
+        <characteristicType id="a28c-3ad5-7f22-320d" name="Description"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="764b-5bf2-b9b9-3fc9" name="Soul Loss Effect">
+      <characteristicTypes>
+        <characteristicType id="814e-7e75-1b23-cf4e" name="Description"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
